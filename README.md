@@ -1,5 +1,5 @@
 <p align="center">
-  <strong>README</strong> | <a href="https://github.com/Hongseme/OpenWrt/blob/main/README-R4S.md">R4S</a> | <a href="https://github.com/Hongseme/OpenWrt/blob/main/README-360v6.md">360v6</a>
+  <strong>README</strong> | <a href="https://github.com/ll-gg-ll/OpenWrt/blob/main/README-R4S.md">R4S</a> | <a href="https://github.com/ll-gg-ll/OpenWrt/blob/main/README-360v6.md">360v6</a>
 </p>
 
 # Openwrt packages
@@ -11,53 +11,53 @@
 ### 安装基本工具包
 > 含：`vim`、`cfdisk`、`rsync`、`git`、`git-http`、`usbutils`、`pciutils`、`lsof`、`coreutils-nohup`
 ```shell
-sh -c "$(curl -sSL https://cdn.jsdelivr.net/gh/Hongseme/OpenWrt@main/base.sh)"
+sh -c "$(curl -sSL https://cdn.jsdelivr.net/gh/ll-gg-ll/OpenWrt@main/base.sh)"
 ```
 
 ### 安装开发工具包
 > 含：`golang`、 `erlang`、`rust`
 
 ```shell
-sh -c "$(curl -sSL https://cdn.jsdelivr.net/gh/Hongseme/OpenWrt@main/dev.sh)"
+sh -c "$(curl -sSL https://cdn.jsdelivr.net/gh/ll-gg-ll/OpenWrt@main/dev.sh)"
 ```
 
 ### 安装zsh、zsh-plugins、主题
 - 安装zsh
 ```shell
 # R4S
-sh -c "$(curl -sSL https://cdn.jsdelivr.net/gh/Hongseme/OpenWrt@main/R4S/zsh.sh)"
+sh -c "$(curl -sSL https://cdn.jsdelivr.net/gh/ll-gg-ll/OpenWrt@main/R4S/zsh.sh)"
 # 360v6
-sh -c "$(curl -sSL https://cdn.jsdelivr.net/gh/Hongseme/OpenWrt@main/360v6/zsh.sh)"
+sh -c "$(curl -sSL https://cdn.jsdelivr.net/gh/ll-gg-ll/OpenWrt@main/360v6/zsh.sh)"
 ```
 - 安装zsh-plugins、主题
 ```shell
 # plugins
 # R4S
-sh -c "$(curl -sSL https://cdn.jsdelivr.net/gh/Hongseme/OpenWrt@main/R4S/zsh-plugins.sh)"
+sh -c "$(curl -sSL https://cdn.jsdelivr.net/gh/ll-gg-ll/OpenWrt@main/R4S/zsh-plugins.sh)"
 # 360v6
-sh -c "$(curl -sSL https://cdn.jsdelivr.net/gh/Hongseme/OpenWrt@main/360v6/zsh-plugins.sh)"
+sh -c "$(curl -sSL https://cdn.jsdelivr.net/gh/ll-gg-ll/OpenWrt@main/360v6/zsh-plugins.sh)"
 
 # theme - Argon
-wget --no-check-certificate https://github.com/jerrykuku/luci-theme-argon/releases/download/v1.7.0/luci-theme-argon_1.7.0-20200909_all.ipk
+wget --no-check-certificate https://ghproxy.com/https://github.com/jerrykuku/luci-theme-argon/releases/download/v1.7.3/luci-theme-argon-18.06_1.7.3-20220421_all.ipk
 opkg install luci-theme-argon*.ipk
 ```
 
 ### 安装neofetch
 ```shell
-sh -c "$(curl -sSL https://cdn.jsdelivr.net/gh/Hongseme/OpenWrt@main/neofetch.sh)"
+sh -c "$(curl -sSL https://cdn.jsdelivr.net/gh/ll-gg-ll/OpenWrt@main/neofetch.sh)"
 ```
 
 ### filebrowser
 > 默认账号密码：`admin`
 > web: `http://ip:8080`
 ```shell
-sh -c "$(curl -sSL https://cdn.jsdelivr.net/gh/Hongseme/OpenWrt@main/filebrowser.sh)"
+sh -c "$(curl -sSL https://cdn.jsdelivr.net/gh/ll-gg-ll/OpenWrt@main/filebrowser.sh)"
 ```
 
 ### speedtest-go
 > web: `http://ip:8989`
 ```shell
-sh -c "$(curl -sSL https://cdn.jsdelivr.net/gh/Hongseme/OpenWrt@main/speedtest-go.sh)"
+sh -c "$(curl -sSL https://cdn.jsdelivr.net/gh/ll-gg-ll/OpenWrt@main/speedtest-go.sh)"
 ```
 
 ## 工具脚本
